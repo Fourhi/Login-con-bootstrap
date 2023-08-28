@@ -1,0 +1,38 @@
+
+img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+  }
+.logo-icon{
+    font-size: 3.5em;
+}
+.label-info{
+    font-size: 0.9rem;
+}
+.btn-facebook{
+    background: #4967B3;
+    
+}
+
+.btn-google{
+    background: #5185F6;
+    
+}
+.btn-facebook>div, .btn-google>div{
+    font-size: 0.9rem;
+}
+.icon-facebook, .icon-google{
+    font-size: 1.2em;
+}
+
+.txt-reg{
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+@media screen and (max-width: 1200px) {
+    #image-login{
+        display: none;
+    }
+}
