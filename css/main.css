@@ -1,11 +1,16 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@300&family=Open+Sans&family=Poppins:wght@300;400&family=Raleway&family=Roboto:wght@300&display=swap');
 img{
     object-fit: cover;
     width:100%;
     height:100%;
   }
+
+.name-company{
+    font-family: 'Montserrat', sans-serif;
+}
 .logo-icon{
-    font-size: 3.5em;
+    font-size: 5.5em;
 }
 .label-info{
     font-size: 0.9rem;
@@ -19,16 +24,32 @@ img{
     background: #5185F6;
     
 }
-.btn-facebook>div, .btn-google>div{
-    font-size: 0.9rem;
+.btn-facebook:hover, .btn-google:hover{
+    background: #28395d;
+    
 }
-.icon-facebook, .icon-google{
-    font-size: 1.2em;
+
+
+.btn-facebook>div, .btn-google>div{
+    font-size: 0.8rem;
+}
+
+
+.icon-facebook{
 }
 
 .txt-reg{
     font-size: 0.9em;
     font-style: italic;
+}
+.icon__google{
+    width: 20px;
+}
+
+.check-box{
+    width: 1em;
+    height: 1em;
+    accent-color: rgb(131, 207, 131);
 }
 
 @media screen and (max-width: 1200px) {
